@@ -1,0 +1,11 @@
+Alunos : Guilherme Balbinot 
+Lucas Ribeiro santos 
+Mateus Marchesan 
+Relatório, Trabalho Prático : Batalha Naval 
+
+O objetivo do trabalho foi de elaborar um jogo de batalha naval através da programação em linguagem python. Neste trabalho deveríamos criar um tabuleiro de 40x40 para cada jogador ( 2 ), onde deverão posicionar 5 navios de tamanhos diferentes: um porta-aviões (comprimento 5), um encouraçado (comprimento 4), um submarino e um destroyer (ambos de comprimento 3), e barco de patrulha (comprimento 2). Para o posicionamento das embarcações utilizamos um while onde usamos  contadores  para cada while de cada barco aumentando sempre mais um dependende do que o usuario digitar em uma variavel chamado direção onde ele vai digitar a direcao usando um ponto de referencia.
+ Após isso começará o confronto, onde cada jogador ( um de cada vez de forma alternada ) deverá selecionar uma posição para atacar e afundar as embarcações inimigas, se algum dos navios do jogador que está sendo atacado estiver na posição atacada, considera-se que o navio foi atingido, caso o contrário é avisado que errou o ataque, para isso utilizamos if para comparar  a posição que foi o ataque se ela for igual a unicod do mar ele errou se for igual a o unicod dos barcos ele acertou e o trabalho apresenta uma animção. 
+
+O jogo continua até que um jogador afunde todos os navios de seu oponente, este jogador é então considerado vencedor, para definir o vencedor utilizamos uma função que tem um for nela que percorre toda a matriz de cada jogador e cofere se os unicod dos barcos ainda estão presentes.  
+
+FIM 
